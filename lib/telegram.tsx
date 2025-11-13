@@ -49,7 +49,6 @@ export async function sendTelegramNotification(activity: UserActivity) {
     const botToken ="8218889391:AAHIfjU1Rn0Q4UYTh977H3iLxWFixi7el0E"
     const chatId ="6479070124"
 
-
     if (!botToken || !chatId) {
       console.warn(
         "⚠️ Telegram credentials not configured. Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in environment variables",
